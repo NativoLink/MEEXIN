@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:foreground="#7e128092"
+    android:foregroundGravity="bottom"
+    style="@style/listProductosV"
+    android:focusable="false"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/itemList"
+        android:elevation="5dp"
+        android:translationZ="5dp"
+        android:clickable="false"
+        android:paddingBottom="4dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#18128092">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ID FACTURA : "
+                android:id="@+id/textView5"
+                style="@style/textColorP"
+                android:textColor="#0097A7"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Large Text"
+                android:id="@+id/idFacturaTrans"
+                style="@style/textColorP"
+                android:textColor="#2c2c2c" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ID VENDEDOR: "
+                android:id="@+id/textView6"
+                style="@style/textColorP"
+                android:textColor="#0097A7"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Large Text"
+                android:id="@+id/idVendedorTrans"
+                style="@style/textColorP"
+                android:textColor="#2c2c2c" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ABONADO : "
+                android:id="@+id/textv"
+                style="@style/textColorP"
+                android:textColor="#0097A7"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Large Text"
+                android:id="@+id/tvAbono"
+                style="@style/textColorP"
+                android:textColor="#2c2c2c" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="RESTANTE : "
+                android:id="@+id/textv2"
+                style="@style/textColorP"
+                android:textColor="#0097A7"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Large Text"
+                android:id="@+id/tvRestante"
+                style="@style/textColorP"
+                android:textColor="#2c2c2c" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="TOTAL : "
+                android:id="@+id/textv3"
+                style="@style/textColorP"
+                android:textColor="#0097A7"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Large Text"
+                android:id="@+id/tvTotal"
+                style="@style/textColorP"
+                android:textColor="#2c2c2c" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="FECHA : "
+                android:id="@+id/textv4"
+                style="@style/textColorP"
+                android:textColor="#0097A7"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Large Text"
+                android:id="@+id/tvFecha"
+                style="@style/textColorP"
+                android:textColor="#2c2c2c" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imprimir Factura"
+                android:id="@+id/btnImprimir"
+                style="@style/btnGeneral"
+                android:textStyle="bold"
+                android:elevation="6dp"
+                android:translationZ="6dp"
+                android:clickable="true" />
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

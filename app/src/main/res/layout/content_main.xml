@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.darkcode.emenu.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <FrameLayout
+        android:id="@+id/f_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:id="@+id/print_text"
+            android:drawableLeft="@drawable/text"
+            android:text="@string/title_print_text"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:id="@+id/conectar"
+            android:drawableLeft="@drawable/text"
+            android:text="SELECT CONECT"
+            android:layout_gravity="center_horizontal|top" />-->
+    </FrameLayout>
+</RelativeLayout>

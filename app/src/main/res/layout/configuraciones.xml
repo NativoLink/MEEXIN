@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/VFondo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView3" >
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="USER ID:"
+                    android:id="@+id/textView19"
+                    style="@style/textSobreGris"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/etClaveA"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="USER ID:"
+                    android:id="@+id/tvUser"
+                    style="@style/textSobreGris"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/btnActualizar"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Nombre:"
+                    android:id="@+id/textView21"
+                    style="@style/textSobreGris"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/tvNombre"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Nombre:"
+                    android:id="@+id/tvNombre"
+                    style="@style/textSobreGris"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/btnActualizar"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/etClaveA"
+                    android:layout_marginTop="50dp"
+                    android:hint="Clave Actual"
+                    android:textAlignment="center"
+                    style="@style/inputSobreGris"
+                    android:background="@drawable/round_all"
+                    android:layout_below="@+id/tvUser"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/etClaveN"
+                    android:layout_marginTop="24dp"
+                    android:hint="Clave Nueva"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/etClaveA"
+                    android:layout_centerHorizontal="true"
+                    style="@style/inputSobreGris"
+                    android:background="@drawable/round_top"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/etClaveC"
+                    android:layout_marginTop="1dp"
+                    android:hint="Verificar clave Nueva"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/etClaveN"
+                    android:layout_centerHorizontal="true"
+                    style="@style/inputSobreGris"
+                    android:background="@drawable/round_bottom"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Actualizar"
+                    android:id="@+id/btnActualizar"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/button_press"
+                    style="@style/btnGeneral"
+                    android:layout_below="@+id/etClaveC"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="36dp"
+                    android:elevation="4dp" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

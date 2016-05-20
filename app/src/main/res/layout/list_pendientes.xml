@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    style="@style/listProductosV">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    style="@style/itemList"
+    android:elevation="1dp"
+    android:contextClickable="true">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false">
+
+        <ImageView
+            android:layout_width="158dp"
+            android:layout_height="230dp"
+            android:id="@+id/imgProductoPedido"
+            android:elevation="5dp"
+            android:focusable="false"
+            android:backgroundTintMode="screen"
+            android:foregroundTint="#128092" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="4dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="No.Pedido: "
+                    android:id="@+id/NoP"
+                    style="@style/textColorP"
+                    android:textColor="#0097A7"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/tvNoPedido"
+                    style="@style/textColorP" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marca:  "
+                    android:id="@+id/tvMarca"
+                    style="@style/textColorP"
+                    android:textColor="#0097A7"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/tvMarcaPedido"
+                    style="@style/textColorP" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modelo: "
+                    android:id="@+id/tvModelo"
+                    style="@style/textColorP"
+                    android:textColor="#0097A7"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:id="@+id/tvModeloPedido"
+                    style="@style/textColorP" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: "
+                    android:id="@+id/tvPrecio"
+                    style="@style/textColorP"
+                    android:textColor="#0097A7"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:id="@+id/tvPrecioPedido"
+                    style="@style/textColorP" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cantidad: "
+                    android:id="@+id/tvCantidad"
+                    style="@style/textColorP"
+                    android:textColor="#0097A7"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:layout_width="80dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/tvCantidadPedido"
+                    style="@style/textColorP" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Total: "
+                    android:id="@+id/tvTotal"
+                    style="@style/textColorP"
+                    android:textColor="#0097A7"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/tvTotalPedido"
+                    android:textColor="#006064"
+                    style="@style/textColorP" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Descripcion: "
+                    android:id="@+id/tvDescripcion"
+                    style="@style/textColorP"
+                    android:textColor="#0097A7"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:id="@+id/tvDescripcionPedido"
+                    style="@style/textColorP" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="3dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confirmar Pedido"
+                    android:id="@+id/btnConfirmarP"
+                    style="@style/btnGeneral"
+                    android:background="@drawable/button_press"
+                    android:elevation="2dp"
+                    android:textStyle="bold"
+                    android:clickable="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X"
+                    android:id="@+id/btnEliminarP"
+                    style="@style/btnGeneralX"
+                    android:elevation="1dp"
+                    android:clickable="true" />
+            </TableRow>
+
+
+        </LinearLayout>
+    </TableRow>
+
+
+</LinearLayout>
+</LinearLayout>

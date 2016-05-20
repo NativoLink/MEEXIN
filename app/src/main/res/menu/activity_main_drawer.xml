@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_capital"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Capital" />
+        <item
+            android:id="@+id/nav_pedidos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Mis Pedidos" />
+     <!-- <item
+            android:id="@+id/nav_transacciones"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Transacciones" />-->
+        <item
+            android:id="@+id/nav_abonos"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Abonos" />
+
+        <item
+            android:id="@+id/nav_configuraciones"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Configuraciones" />
+
+        <item
+            android:id="@+id/nav_contacto"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Contacto" />
+
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Salir" />
+
+         <!--<item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ayuda" />
+
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Salir" />-->
+    </group>
+
+    <!--<item android:title="Contactanos en:"/>-->
+    <!--<item android:title="829-742-6113">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
